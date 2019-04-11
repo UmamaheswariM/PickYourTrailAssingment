@@ -13,7 +13,7 @@
 //java imports
 import java.util.*;
 
-public class SyncConfStatusCodes 
+public class Shortest_Substring 
 {
 	public static void main(String args[])
 	{
