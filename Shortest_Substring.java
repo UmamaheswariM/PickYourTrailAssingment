@@ -1,7 +1,12 @@
 /*
   To find the shorest substring we have to find the  unique characters in a string
-  then traverse the string and when we identify the substring keep track of the length by getting the number of characters
-  Repeat this till string length
+  For that traverse the array and store it a hashmap (We can also use 2 arrays,one for unique chars and anoter one for count)
+  
+  then traverse the string and increment the characters hashmap value when you find the key value
+  to track whether we have get all the unique chars or not use Map size and counter variable
+  when the map size and counter values are equal it denotes we got the substring with all the chars in string
+  Store the substting length  in minLength variable and initilase map values to 0 and counter value to 0
+  Repeat this till the string length
   return minimum length
 */
 
