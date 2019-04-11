@@ -1,3 +1,10 @@
+/*
+	First initilase the array with 0 after getting the size
+	then create the testcases array.
+	for each testcase add the value to the array element from start to end index and keep track of maximum 
+	return the maximum
+*/
+
 //java imports
 import java.util.*;
 
